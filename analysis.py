@@ -61,7 +61,7 @@ def country2alpha(countryName, mode=3):
             countryName = 'CV'
         if countryName.lower() == 'swaziland':
             countryName = 'SZ'
-        alpha2 = pc.country_name_to_country_alpha2(countryName)
+        alpha = pc.country_name_to_country_alpha2(countryName)
         return alpha2
     elif mode == 3:
         if countryName == 'Laos':
